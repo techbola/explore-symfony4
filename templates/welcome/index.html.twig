@@ -1,29 +1,12 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Explore Symfony4!{% endblock %}
+{% block title %}Home - Explore Symfony4{% endblock %}
 
 {% block body %}
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <div class="container">
-                <a href="{{ path('welcome') }}" class="navbar-brand">Home</a>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a href="{{ path('hello_page') }}" class="nav-link">Hello Page</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main role="main" class="container main">
-        <div>
-            <h1>Let's Explore Symfony 4</h1>
-            <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, doloremque ducimus eius eos eum expedita fugiat incidunt labore molestias optio ratione repellendus repudiandae totam ut voluptas! Illum inventore iste quia?
-            </p>
-        </div>
-    </main>
+    <div>
+        <h1>Let's Explore Symfony 4</h1>
+        <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, doloremque ducimus eius eos eum expedita fugiat incidunt labore molestias optio ratione repellendus repudiandae totam ut voluptas! Illum inventore iste quia?
+        </p>
+    </div>
 {% endblock %}

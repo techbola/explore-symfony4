@@ -1,1 +1,13 @@
-Hello World!
+{% extends 'base.html.twig' %}
+
+{% block title %}Another page - Explore Symfony4{% endblock %}
+
+{% block body %}
+    <div>
+        <h1>Hello page</h1>
+        <p class="lead">
+{#            Hello, {{ app.request.query.get('name') | default('test name') }}#}
+            Hello, {{ name | default('test_name') }}
+        </p>
+    </div>
+{% endblock %}
